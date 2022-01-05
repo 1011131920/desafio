@@ -1,0 +1,43 @@
+*
+{   padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main 
+{   
+    width: 100vw;
+    height: 100vh;
+
+
+    
+}
+.body{
+  
+    margin-bottom: 40px;
+    border: 5px solid black;
+}
+.header
+{
+    width: 100vw;
+    height: 108px;
+    background-color: #fff;
+    
+
+}
+img{
+    width: 100%;
+    object-fit: cover;
+   /* opacity: 0.1;*/
+    object-fit: cover;
+
+}
+
+
+
+
+
+
+
+
+
+

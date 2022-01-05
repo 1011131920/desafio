@@ -1,0 +1,12 @@
+.six-itens{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.six-itens .item-cont img
+{
+    width: 290px;
+    height: 290px;
+    
+    
+
+}
