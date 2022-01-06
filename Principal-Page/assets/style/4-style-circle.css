@@ -1,0 +1,14 @@
+
+ .total .circle{
+    
+    display: flex;
+    justify-content: space-between;
+  
+}
+.circle .item
+{
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+}
+

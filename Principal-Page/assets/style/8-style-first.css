@@ -1,0 +1,14 @@
+.first{
+    grid-gap: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 40px ;
+}
+.first div:nth-child(1){
+    grid-column: 1/3;
+  
+ }
+
+
+
+
