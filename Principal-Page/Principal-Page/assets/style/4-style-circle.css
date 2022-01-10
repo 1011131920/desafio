@@ -1,0 +1,41 @@
+.total .circle {
+  display: flex;
+  justify-content: space-between;
+  padding:40px 0px;
+  background-color:#e4e6f0;
+
+
+}
+.circle .item-cont {
+  height: 275px;
+  width: 275px;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 900px) {
+  .circle .item {
+  }
+}
+@media only screen and (max-width: 830px) {
+  .container {
+    width: 600px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .total .container .item-cont{
+    margin: 10px;
+  }
+
+  .total .circle {
+    display: block;
+    margin: 0;
+
+    padding: 40px;
+    margin-bottom: 10px;
+  }
+  .container {
+      width: auto;
+      
+
+  }
+}

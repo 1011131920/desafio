@@ -7,9 +7,15 @@
     margin-top: 40px;
     margin-bottom: 40px;
 }
+.left-important{
+    
+    padding: 40px 0px;
+    background-color: #e4e6f0;
+}
 .left-important .item-cont
 {
     background-color: #fff;
+
 }
 .right-important .item-cont
 {
@@ -19,12 +25,14 @@
 {
     grid-row: 1/3;
     grid-column: 1;
+    border: 1px solid red;
 }
 
 .right-important > div:nth-child(2)
 {
     grid-row: 1/3;
     grid-column: 2;
+    border: 1px solid red;
 }
 .left-important .item{
     width: auto;
@@ -34,4 +42,27 @@
 .right-important .item{
     width: auto;
     height: 210px;
+}
+
+
+@media only screen and (max-width: 900px) {
+
+
+}
+@media only screen and (max-width: 830px) {
+    .left-important, .right-important
+{
+    display: block;
+}
+
+}
+@media only screen and (max-width: 350px) {
+    .left-important .item-cont{
+        padding: 40px;
+    } 
+    
+    .right-important .item{
+
+    }
+
 }
