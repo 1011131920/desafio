@@ -32,6 +32,18 @@
   .multiform-right{
     display: block;
   }
+
+  .multiform-left .item-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+   
+  }
+  .multiform-left .item{
+    width: 230px;
+    height: 230px
+
 }
 @media only screen and (max-width: 360px) {
   .mult {
@@ -49,6 +61,7 @@
   .multiform-left{
     width: auto;
     display: grid;
+    
     place-items: center;
     width: 100%;
     height: 100%;
