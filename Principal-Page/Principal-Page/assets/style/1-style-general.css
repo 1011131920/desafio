@@ -20,13 +20,13 @@ body{
 .container{
   
     margin: auto;
-    width: 58.5%;
+    width: 65.5%;
     background-color: #f1f2f7;
   
 }
 
 .item-cont{
-    height: 280px;
+    height: 275px;
     width: auto;
     background-color: #fff;
  

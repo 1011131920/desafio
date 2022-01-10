@@ -1,9 +1,13 @@
+.mult{
+    display: flex;
+}
 .multiform-left, .multiform-right
 {
     width: 50vw;
     display: flex;
     align-items: center;
     padding: 80px 0px;
+
 }
 .multiform-left .item-cont
 {
@@ -23,7 +27,7 @@
 .multiform-right{
     background-color:#e4e6f0;
     justify-content: flex-start;
-    padding-left: 80px;
+    margin-left: 80px;
 
 }
 
