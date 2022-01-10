@@ -46,5 +46,42 @@
     border-radius: 50%;
    
   }
+
+  @media only screen and (max-width: 360px) {
+    .total .circle {
+      display: flex;
+      width: 100vw;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      
+      
+      
+    }
+    .circle .item-cont {
+      margin: 0;
+      flex: none;
+      width: 100%;
+      scroll-snap-align: start;
+    
+      
+      
+    
+    }
+    .circle .item {
+      height: 100%;
+      width: 100%;
+      margin: 0 auto;
+      border-radius: 50%;
+      
+      
+    }
+    .circle .item {
+
+      height: 275px;
+      width: 275px;
+      border-radius: 50%;
+      
+    }
+  }
 }
 
