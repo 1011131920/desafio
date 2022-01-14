@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(240, 240, 240);
+}
+.bar {
+  position: fixed;
+}
+.top,
+.botton {
+  width: 100vw;
+  height: 47px;
+}
+.right,
+.left {
+  width: 47px;
+  height: 100vh;
+  z-index: 1;
+}
+.top {
+  background-color: #22d1a4;
+}
+.right {
+  background-color: #ff567b;
+  right: 0;
+}
+.left {
+  background-color: #28a2ff;
+}
+.botton {
+  background-color: #ffc53f;
+  bottom: 0;
+}
+.box {
+  background-color: #fff;
+  width: 50%;
+  height:400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+

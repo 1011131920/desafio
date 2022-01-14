@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  overflow-x: hidden;
+}
+
+body {
+  background-color: rgb(234, 242, 248);
+  width: 100vw;
+  height: 100vh;
+}
+.menu {
+  position: fixed;
+  background-color: #28a2ff;
+}
+.horizontal {
+  width: 100vw;
+  height: 47px;
+
+}
+.vertical {
+  width: 47px;
+  height: 100%;
+}
+.item {
+  width: auto;
+  height: 120px;
+  background-color: #fff;
+}
+.container {
+  display: flex;
+  width: 100vw;
+  padding: 67px 0px 0px 67px;
+}
+.box {
+  margin-top: 100px red;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 6;
+  grid-gap: 20px;
+  margin: 0;
+  flex: none;
+  width: 100%;
+  scroll-snap-align: start;
+}
+button{
+  width: 55px;
+  height: 55px;
+  background-color:  #22d1a4;
+  border-radius: 50%;
+  border: none;
+  position:fixed;
+  bottom: 27px;
+  right: 27px;
+}
+
+
