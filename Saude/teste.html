@@ -1,0 +1,153 @@
+m<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Djc Lavanderia</title>
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="pricing.css" rel="stylesheet">
+  </head>
+  <body>
+   
+    <!--Os simbolos de checagem das celulas-->
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="check" viewBox="0 0 16 16">
+    <title>Check</title>
+    <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+  </symbol>
+</svg>
+
+<div class="container py-3">
+  <header>
+    <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center text-blue text-decoration-none"> <!--Logo canto esquerdo superior-->
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="me-2" viewBox="0 0 118 94" role="img"><title>Bootstrap</title><path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"></path></svg>
+        <span class="fs-4">DJC Lavanderia</span>
+      </a>
+
+      <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+        <a class="me-3 py-2 text-blue text-decoration-none " href="#">Cadastro</a>
+        <a class="me-3 py-2 text-blu text-decoration-none" href="#">Entregas</a>
+        <a class="me-3 py-2 text-blu text-decoration-none" href="#">Financeiro</a>
+        <a class="py-2 text-blu text-decoration-none" href="#">Agenda</a>
+      </nav>
+    </div>
+
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+      <h1 class="display-4 fw-normal">Ordem de serviço</h1>
+    </div>
+  </header>
+
+  <main>
+    
+    <div class="col"> <!--Aqui dados do cliente-->
+        <div class="card mb-4 rounded-3 shadow-sm border-primary"> <!--Bordas dados do cliente-->
+          <div class="card-header py-3= text-white bg-primary border-primary "><!--Sublinhado do cliente-->
+            <h4 class="my-0 fw-normal">Dados do cliente</h4>
+          </div>
+          <div class="card-body">
+            
+            <ul class="list-unstyled mt-1 mb-4">
+              <li>Nome:</li> 
+              <li>Endereço:</li>
+              <li>Contato:</li>
+              <li>Entrega:</li>
+            </ul>
+
+            <div class="table-responsive">
+              <table class="table text-center">
+                <thead>
+                  <tr>
+                    <th style="width: 15%;">Tipo de peça</th>
+                    <th style="width: 15%;">Quant</th>
+                    <th style="width: 15%;">Valor</th>
+                    <th style="width: 15%;">Total</th>
+                  </tr>
+                </thead>
+
+          <tbody>
+          <tr>
+            <th scope="row" class="text-start">Camisa</th>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+          </tr>
+
+          <th scope="row" class="text-start">Calça</th>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+          </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+              </table>
+
+
+    <div class="row row-cols-1 row-cols-md-4 mb-3 text-center"> <!--Tomando e outros detalhes dos cards-->
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-primary"> <!--Borda do card-->
+          <div class="card-header py-3 text-white bg-primary border-primary">
+            <h4 class="my-0 fw-normal">Data de entrega:</h4> 
+          </div>
+        </div>
+      </div>
+
+      <div class="col"> <!--Imput data de entrega-->
+      <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <input class="my-0 fw-normal" type="text">
+            <nav>
+              <a href="Exercicios/teste.html">00 - Teste</a><br>
+           </nav>
+          </div>
+        </div>
+      </div>
+ 
+
+      
+      </main>
+
+  
+      <footer>
+
+      </footer>
+ 
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
