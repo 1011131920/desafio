@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./list.css">
+    <title>Table</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Tabela</h1>
+            <div id="table-heading">
+                <div>Campo 1</div>
+                <div>Campo 2</div>
+                <div>Campo 3</div>
+                <div>Ações</div>
+            </div>
+            <div  class="table-rows">
+                <div  class="table-row">
+                    <div>Campo 1</div>
+                    <div>Campo 2</div>
+                    <div>Campo 3</div>
+                    <div class="act">
+                        <div>
+                            <button class="btn"><a href=""><img src="./assets/img/see.svg" alt=""></a></button>
+                        </div>
+                        <div>
+                            <form action="tasks/{{ $task->id}}" method="POST">
+                                <button  class="btn" type="submit"><img src="./assets/img/trash.svg" alt=""></button>
+                            </form>
+                        </div>
+                        <div>
+                            <button  class="btn" ><a href=""><img src="./assets/img/update.svg" alt=""></a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
